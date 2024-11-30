@@ -1,6 +1,6 @@
-package de.nosswald.aoc
+package de.nilsosswald.aoc
 
-import de.nosswald.aoc.days.*
+import de.nilsosswald.aoc.days.Day01
 
 object Main {
     private val days = listOf<Day<*>>(

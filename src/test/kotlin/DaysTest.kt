@@ -1,5 +1,5 @@
-import de.nosswald.aoc.Day
-import de.nosswald.aoc.days.Day01
+import de.nilsosswald.aoc.Day
+import de.nilsosswald.aoc.days.Day01
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.DynamicTest
 import org.junit.jupiter.api.TestFactory

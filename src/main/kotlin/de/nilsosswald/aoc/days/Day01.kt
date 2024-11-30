@@ -1,6 +1,6 @@
-package de.nosswald.aoc.days
+package de.nilsosswald.aoc.days
 
-import de.nosswald.aoc.Day
+import de.nilsosswald.aoc.Day
 
 object Day01 : Day<Int>(1, "Example") {
     override fun partOne(input: List<String>): Int {

@@ -1,3 +1,1 @@
-
-rootProject.name = "aoc-template-kotlin"
-
+rootProject.name = "advent-of-code-2024"

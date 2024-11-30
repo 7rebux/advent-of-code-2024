@@ -1,4 +1,4 @@
-package de.nosswald.aoc.utils
+package de.nilsosswald.aoc.utils
 
 import java.io.File
 

@@ -1,6 +1,6 @@
-package de.nosswald.aoc
+package de.nilsosswald.aoc
 
-import de.nosswald.aoc.utils.InputReader
+import de.nilsosswald.aoc.utils.InputReader
 
 abstract class Day<T>(val number: Int, val title: String) {
     private val inputList by lazy { InputReader.readAsList(number) }
