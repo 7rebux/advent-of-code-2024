@@ -5,15 +5,10 @@ import org.junit.jupiter.api.DynamicTest
 import org.junit.jupiter.api.TestFactory
 
 class DaysTest {
-    data class Answer<T>(
-        val day: Day<T>,
-        val partOne: T,
-        val partTwo: T
-    )
 
     @TestFactory
     fun answers() = listOf(
-        Answer(Day01, 21, 720),
+        Answer(Day01, 2904518, 18650129),
     ).map {
         DynamicTest.dynamicTest("Day ${it.day.number} - ${it.day.title}") {
             if (it.day.partOneTestExamples.isNotEmpty()) {
@@ -41,4 +36,10 @@ class DaysTest {
             print(" SUCCESS\n")
         }
     }
+
+    data class Answer<T>(
+        val day: Day<T>,
+        val partOne: T,
+        val partTwo: T
+    )
 }
