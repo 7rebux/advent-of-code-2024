@@ -1,10 +1,11 @@
 package de.nilsosswald.aoc
 
-import de.nilsosswald.aoc.days.Day01
+import de.nilsosswald.aoc.days.*
 
 object Main {
     private val days = listOf<Day<*>>(
         Day01,
+        Day02,
     )
 
     @JvmStatic
