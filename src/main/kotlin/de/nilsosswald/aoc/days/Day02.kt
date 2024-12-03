@@ -22,7 +22,7 @@ object Day02 : Day<Int>(2, "Red-Nosed Reports") {
         levels.indices
           .asSequence()
           .map { i ->
-            levels.filterIndexed { j, _ -> i != j }
+            levels.toMutableList().apply { this.removeAt(i) }
           }
           .any(::isSafe)
       }
@@ -33,8 +33,7 @@ object Day02 : Day<Int>(2, "Red-Nosed Reports") {
       .zipWithNext { a, b -> a - b }
       .let { diffs ->
         diffs.map(Int::sign).distinct().size == 1
-          && !diffs.all { it == 0 }
-          && diffs.map(::abs).all { x -> x <= 3 }
+          && diffs.map(::abs).all { x -> x in 1..3 }
       }
   }
 
