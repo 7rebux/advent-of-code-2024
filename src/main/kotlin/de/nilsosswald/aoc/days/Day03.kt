@@ -16,7 +16,7 @@ object Day03 : Day<Int>(3, "Mull It Over") {
     return with(input.joinToString()) {
       regex.findAll(this)
         .filterNot { match ->
-          this.lastIndexOf("don't()", match.range.first)> this.lastIndexOf("do()", match.range.first)
+          this.lastIndexOf("don't()", match.range.first) > this.lastIndexOf("do()", match.range.first)
         }
         .map(MatchResult::destructured)
         .sumOf { (a, b) -> a.toInt() * b.toInt() }
