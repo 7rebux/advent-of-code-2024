@@ -30,7 +30,7 @@ object Day05 : Day<Int>(5, "Print Queue") {
   }
 
   private fun parseRuleMap(input: List<String>) = input
-    .filter { it.contains("|") }
+    .takeWhile { line -> line.isNotBlank() }
     .map { line ->
       line
         .split("|")
@@ -41,7 +41,7 @@ object Day05 : Day<Int>(5, "Print Queue") {
     .mapValues { (_, value) -> value.map { it.first } }
 
   private fun parseUpdates(input: List<String>) = input
-    .filter { it.contains(",") }
+    .takeLastWhile { line -> line.isNotBlank() }
     .map { it.split(",").map(String::toInt) }
 
   private fun List<Int>.isSortedBy(rules: Map<Int, List<Int>>) = this
