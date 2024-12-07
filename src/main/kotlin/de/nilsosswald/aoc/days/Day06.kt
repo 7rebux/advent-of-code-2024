@@ -10,22 +10,6 @@ object Day06 : Day<Int>(6, "Guard Gallivant") {
       .count()
   }
 
-  private fun walk(
-    input: List<String>,
-    start: Point = getStartPoint(input),
-    extraObstacle: Point? = null
-  ): Sequence<PathEntry> {
-    return generateSequence(PathEntry(Direction.North, start)) { (dir, current) ->
-      val next = current + dir.offset
-
-      when {
-        next !in input -> null
-        input[next] == '#' || next == extraObstacle -> PathEntry(dir.nextClockwise(), current)
-        else -> PathEntry(dir, next)
-      }
-    }
-  }
-
   override fun partTwo(input: List<String>): Int {
     val start = getStartPoint(input)
     val possibleObstaclePoints = walk(input, start)
@@ -39,6 +23,22 @@ object Day06 : Day<Int>(6, "Guard Gallivant") {
         .takeWhile(seen::add)
         .last()
         .let { (dir, point) -> point + dir.offset in input  }
+    }
+  }
+
+  private fun walk(
+    input: List<String>,
+    start: Point = getStartPoint(input),
+    extraObstacle: Point? = null
+  ): Sequence<PathEntry> {
+    return generateSequence(PathEntry(Direction.North, start)) { (dir, current) ->
+      val next = current + dir.offset
+
+      when {
+        next !in input -> null
+        input[next] == '#' || next == extraObstacle -> PathEntry(dir.nextClockwise(), current)
+        else -> PathEntry(dir, next)
+      }
     }
   }
 
