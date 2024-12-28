@@ -12,6 +12,7 @@ object Main {
         Day06,
         Day07,
         Day09,
+        Day19,
         Day21,
         Day25,
     )
