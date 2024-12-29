@@ -65,6 +65,7 @@ object Day06 : Day<Int>(6, "Guard Gallivant") {
   private operator fun Point.plus(other: Point) =
     Point(x + other.x, y + other.y)
 
+  @Suppress("Unused")
   private operator fun List<String>.get(point: Point) =
     this[point.y][point.x]
 
