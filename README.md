@@ -1,8 +1,8 @@
 # 🎄 [Advent Of Code 2024](https://adventofcode.com/2024)
 
 ![Current day](https://img.shields.io/badge/Day-25-blue)
-![Stars obtained](https://img.shields.io/badge/Stars%20Obtained%20⭐-29-yellow)
-![Days completed](https://img.shields.io/badge/Days%20Completed-15-red)
+![Stars obtained](https://img.shields.io/badge/Stars%20Obtained%20⭐-31-yellow)
+![Days completed](https://img.shields.io/badge/Days%20Completed-16-red)
 
 ### Daily Solution Index
 
@@ -15,7 +15,7 @@
 | ✔ 05 | Print Queue            |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day05.kt) |
 | ✔ 06 | Guard Gallivant        |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day06.kt) |
 | ✔ 07 | Bridge Repair          |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day07.kt) |
-| x 08 | Resonant Collinearity  |   ❌    |   ❌    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day08.kt) |
+| ✔ 08 | Resonant Collinearity  |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day08.kt) |
 | ✔ 09 | Disk Fragmenter        |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day09.kt) |
 | ✔ 10 | Hoof it                |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day10.kt) |
 | x 11 | Plutonian Pebbles      |   ❌    |   ❌    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day11.kt) |
