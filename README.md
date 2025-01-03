@@ -1,8 +1,8 @@
 # 🎄 [Advent Of Code 2024](https://adventofcode.com/2024)
 
 ![Current day](https://img.shields.io/badge/Day-25-blue)
-![Stars obtained](https://img.shields.io/badge/Stars%20Obtained%20⭐-31-yellow)
-![Days completed](https://img.shields.io/badge/Days%20Completed-16-red)
+![Stars obtained](https://img.shields.io/badge/Stars%20Obtained%20⭐-33-yellow)
+![Days completed](https://img.shields.io/badge/Days%20Completed-17-red)
 
 ### Daily Solution Index
 
@@ -18,7 +18,7 @@
 | ✔ 08 | Resonant Collinearity  |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day08.kt) |
 | ✔ 09 | Disk Fragmenter        |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day09.kt) |
 | ✔ 10 | Hoof it                |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day10.kt) |
-| x 11 | Plutonian Pebbles      |   ❌    |   ❌    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day11.kt) |
+| ✔ 11 | Plutonian Pebbles      |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day11.kt) |
 | x 12 | Garden Groups          |   ❌    |   ❌    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day12.kt) |
 | ✔ 13 | Claw Contraption       |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day13.kt) |
 | x 14 | Restroom Redoubt       |   ❌    |   ❌    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day14.kt) |
