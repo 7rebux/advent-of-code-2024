@@ -22,7 +22,7 @@
 | ✔ 12 | Garden Groups          |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day12.kt) |
 | ✔ 13 | Claw Contraption       |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day13.kt) |
 | x 14 | Restroom Redoubt       |   ❌    |   ❌    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day14.kt) |
-| x 15 | Warehouse Woes         |   ❌    |   ❌    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day15.kt) |
+| ✔ 15 | Warehouse Woes         |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day15.kt) |
 | x 16 | Reindeer Maze          |   ❌    |   ❌    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day16.kt) |
 | ✔ 17 | Chronospatial Computer |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day17.kt) |
 | x 18 | RAM Run                |   ❌    |   ❌    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day18.kt) |
