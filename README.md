@@ -1,8 +1,8 @@
 # 🎄 [Advent Of Code 2024](https://adventofcode.com/2024)
 
 ![Current day](https://img.shields.io/badge/Day-25-blue)
-![Stars obtained](https://img.shields.io/badge/Stars%20Obtained%20⭐-43-yellow)
-![Days completed](https://img.shields.io/badge/Days%20Completed-22-red)
+![Stars obtained](https://img.shields.io/badge/Stars%20Obtained%20⭐-45-yellow)
+![Days completed](https://img.shields.io/badge/Days%20Completed-23-red)
 
 ### Daily Solution Index
 
@@ -27,7 +27,7 @@
 | ✔ 17 | Chronospatial Computer |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day17.kt) |
 | ✔ 18 | RAM Run                |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day18.kt) |
 | ✔ 19 | Linen Layout           |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day19.kt) |
-| x 20 | Race Condition         |   ❌    |   ❌    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day20.kt) |
+| ✔ 20 | Race Condition         |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day20.kt) |
 | ✔ 21 | Keypad Conundrum       |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day21.kt) |
 | ✔ 22 | Monkey Market          |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day22.kt) |
 | ✔ 23 | LAN Party              |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day23.kt) |
