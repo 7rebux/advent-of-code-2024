@@ -1,8 +1,8 @@
 # 🎄 [Advent Of Code 2024](https://adventofcode.com/2024)
 
 ![Current day](https://img.shields.io/badge/Day-25-blue)
-![Stars obtained](https://img.shields.io/badge/Stars%20Obtained%20⭐-41-yellow)
-![Days completed](https://img.shields.io/badge/Days%20Completed-21-red)
+![Stars obtained](https://img.shields.io/badge/Stars%20Obtained%20⭐-43-yellow)
+![Days completed](https://img.shields.io/badge/Days%20Completed-22-red)
 
 ### Daily Solution Index
 
@@ -21,7 +21,7 @@
 | ✔ 11 | Plutonian Pebbles      |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day11.kt) |
 | ✔ 12 | Garden Groups          |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day12.kt) |
 | ✔ 13 | Claw Contraption       |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day13.kt) |
-| x 14 | Restroom Redoubt       |   ❌    |   ❌    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day14.kt) |
+| ✔ 14 | Restroom Redoubt       |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day14.kt) |
 | ✔ 15 | Warehouse Woes         |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day15.kt) |
 | x 16 | Reindeer Maze          |   ❌    |   ❌    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day16.kt) |
 | ✔ 17 | Chronospatial Computer |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day17.kt) |
