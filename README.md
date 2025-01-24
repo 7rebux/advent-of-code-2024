@@ -1,7 +1,7 @@
 # 🎄 [Advent Of Code 2024](https://adventofcode.com/2024)
 
 ![Current day](https://img.shields.io/badge/Day-25-blue)
-![Stars obtained](https://img.shields.io/badge/Stars%20Obtained%20⭐-45-yellow)
+![Stars obtained](https://img.shields.io/badge/Stars%20Obtained%20⭐-47-yellow)
 ![Days completed](https://img.shields.io/badge/Days%20Completed-23-red)
 
 ### Daily Solution Index
@@ -23,7 +23,7 @@
 | ✔ 13 | Claw Contraption       |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day13.kt) |
 | ✔ 14 | Restroom Redoubt       |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day14.kt) |
 | ✔ 15 | Warehouse Woes         |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day15.kt) |
-| x 16 | Reindeer Maze          |   ❌    |   ❌    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day16.kt) |
+| ✔ 16 | Reindeer Maze          |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day16.kt) |
 | ✔ 17 | Chronospatial Computer |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day17.kt) |
 | ✔ 18 | RAM Run                |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day18.kt) |
 | ✔ 19 | Linen Layout           |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day19.kt) |
