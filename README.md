@@ -33,3 +33,5 @@
 | ✔ 23 | LAN Party              |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day23.kt) |
 | ✔ 24 | Crossed Wires          |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day24.kt) |
 | ✔ 25 | Code Chronicle         |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day25.kt) |
+
+<img src="./aoc.png" alt="Screenshot" width="800" style="border-radius: 1rem">
