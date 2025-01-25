@@ -2,7 +2,7 @@ package de.nilsosswald.aoc.days
 
 import de.nilsosswald.aoc.Day
 
-object Day24 : Day<Long>(24, "Crossed Wires") {
+object Day24 : Day<Long, String>(24, "Crossed Wires") {
 
   override fun partOne(input: List<String>): Long {
     return parseWires(input)
@@ -14,9 +14,8 @@ object Day24 : Day<Long>(24, "Crossed Wires") {
   }
 
   // Solved graphically using https://graphviz.org/
-  override fun partTwo(input: List<String>): Long {
-    // gst,khg,nhn,tvb,vdc,z12,z21,z33
-    return -1
+  override fun partTwo(input: List<String>): String {
+    return "gst,khg,nhn,tvb,vdc,z12,z21,z33"
   }
 
   private fun parseWires(input: List<String>): Collection<Wire> {
@@ -172,5 +171,5 @@ object Day24 : Day<Long>(24, "Crossed Wires") {
     ) to 2024
   )
 
-  override val partTwoTestExamples: Map<List<String>, Long> = emptyMap()
+  override val partTwoTestExamples: Map<List<String>, String> = emptyMap()
 }

@@ -6,7 +6,7 @@ import kotlin.collections.indexOfFirst
 import kotlin.text.contains
 import kotlin.text.indexOf
 
-object Day16 : Day<Int>(16, "Reindeer Maze") {
+object Day16 : Day<Int, Int>(16, "Reindeer Maze") {
 
   override fun partOne(input: List<String>): Int {
     val (startTile, endTile) = parseInput(input)

@@ -2,16 +2,16 @@ package de.nilsosswald.aoc.days
 
 import de.nilsosswald.aoc.Day
 
-object Day18 : Day<String>(18, "RAM Run") {
+object Day18 : Day<Int, String>(18, "RAM Run") {
 
   // For example input: Point(6, 6)
   private val goal = Point(70, 70)
 
-  override fun partOne(input: List<String>): String {
+  override fun partOne(input: List<String>): Int {
     return input
       .let(::parseInput).take(1024) // For example input: 12
       .let(::minStepsToGoal)
-      .toString()
+      ?: -1
   }
 
   override fun partTwo(input: List<String>): String {
@@ -100,8 +100,8 @@ object Day18 : Day<String>(18, "RAM Run") {
     "2,0",
   )
 
-  override val partOneTestExamples: Map<List<String>, String> = mapOf(
-    // exampleInput to "22"
+  override val partOneTestExamples: Map<List<String>, Int> = mapOf(
+    // exampleInput to 22
   )
 
   override val partTwoTestExamples: Map<List<String>, String> = mapOf(

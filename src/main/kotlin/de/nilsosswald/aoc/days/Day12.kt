@@ -2,7 +2,7 @@ package de.nilsosswald.aoc.days
 
 import de.nilsosswald.aoc.Day
 
-object Day12 : Day<Int>(12, "Garden Groups") {
+object Day12 : Day<Int, Int>(12, "Garden Groups") {
 
   override fun partOne(input: List<String>): Int {
     return findRegions(input).sumOf { region ->

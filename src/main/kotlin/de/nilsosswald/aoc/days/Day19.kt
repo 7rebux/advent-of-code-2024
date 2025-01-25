@@ -2,11 +2,11 @@ package de.nilsosswald.aoc.days
 
 import de.nilsosswald.aoc.Day
 
-object Day19 : Day<Long>(19, "Linen Layout") {
+object Day19 : Day<Int, Long>(19, "Linen Layout") {
 
-  override fun partOne(input: List<String>): Long {
+  override fun partOne(input: List<String>): Int {
     val (patterns, designs) = parseInput(input)
-    return designs.count { countWays(it, patterns) > 0 }.toLong()
+    return designs.count { countWays(it, patterns) > 0 }
   }
 
   override fun partTwo(input: List<String>): Long {
@@ -53,7 +53,7 @@ object Day19 : Day<Long>(19, "Linen Layout") {
     "bbrgwb",
   )
 
-  override val partOneTestExamples: Map<List<String>, Long> = mapOf(
+  override val partOneTestExamples: Map<List<String>, Int> = mapOf(
     exampleInput to 6
   )
 

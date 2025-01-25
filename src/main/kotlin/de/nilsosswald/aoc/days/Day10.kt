@@ -2,7 +2,7 @@ package de.nilsosswald.aoc.days
 
 import de.nilsosswald.aoc.Day
 
-object Day10 : Day<Int>(10, "Hoof It") {
+object Day10 : Day<Int, Int>(10, "Hoof It") {
 
   override fun partOne(input: List<String>): Int {
     return findTrailheads(input).sumOf { trailhead ->

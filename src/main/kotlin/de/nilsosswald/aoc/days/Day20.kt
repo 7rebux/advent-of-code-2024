@@ -3,7 +3,7 @@ package de.nilsosswald.aoc.days
 import de.nilsosswald.aoc.Day
 import kotlin.math.abs
 
-object Day20 : Day<Int>(20, "Race Condition") {
+object Day20 : Day<Int, Int>(20, "Race Condition") {
 
   private const val GOAL = 100
 

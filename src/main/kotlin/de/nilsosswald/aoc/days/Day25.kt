@@ -2,7 +2,7 @@ package de.nilsosswald.aoc.days
 
 import de.nilsosswald.aoc.Day
 
-object Day25 : Day<Int>(25, "Code Chronicle") {
+object Day25 : Day<Int, Nothing?>(25, "Code Chronicle") {
 
   override fun partOne(input: List<String>): Int {
     val (locks, keys) = parseInput(input)
@@ -83,7 +83,7 @@ object Day25 : Day<Int>(25, "Code Chronicle") {
     ) to 3
   )
 
-  override fun partTwo(input: List<String>) = -1
+  override fun partTwo(input: List<String>) = null
 
-  override val partTwoTestExamples: Map<List<String>, Int> = emptyMap()
+  override val partTwoTestExamples: Map<List<String>, Nothing?> = emptyMap()
 }

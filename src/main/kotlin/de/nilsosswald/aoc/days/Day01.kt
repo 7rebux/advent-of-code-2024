@@ -3,7 +3,7 @@ package de.nilsosswald.aoc.days
 import de.nilsosswald.aoc.Day
 import kotlin.math.abs
 
-object Day01 : Day<Long>(1, "Historian Hysteria") {
+object Day01 : Day<Long, Long>(1, "Historian Hysteria") {
 
     override fun partOne(input: List<String>): Long {
         val (left, right) = input

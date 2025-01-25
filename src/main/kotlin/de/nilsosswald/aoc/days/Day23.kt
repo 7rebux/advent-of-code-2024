@@ -2,9 +2,9 @@ package de.nilsosswald.aoc.days
 
 import de.nilsosswald.aoc.Day
 
-object Day23 : Day<String>(23, "LAN Party") {
+object Day23 : Day<Int, String>(23, "LAN Party") {
 
-  override fun partOne(input: List<String>): String {
+  override fun partOne(input: List<String>): Int {
     val graph = parseInput(input)
 
     return graph.keys
@@ -25,7 +25,6 @@ object Day23 : Day<String>(23, "LAN Party") {
       .count { triangle ->
         triangle.any { it.startsWith('t') }
       }
-      .toString()
   }
 
   override fun partTwo(input: List<String>): String {
@@ -101,8 +100,8 @@ object Day23 : Day<String>(23, "LAN Party") {
     "tb-vc",
     "td-yn",
   )
-  override val partOneTestExamples: Map<List<String>, String> = mapOf(
-    exampleInput to "7"
+  override val partOneTestExamples: Map<List<String>, Int> = mapOf(
+    exampleInput to 7
   )
 
   override val partTwoTestExamples: Map<List<String>, String> = mapOf(

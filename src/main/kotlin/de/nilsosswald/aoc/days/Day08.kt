@@ -2,7 +2,7 @@ package de.nilsosswald.aoc.days
 
 import de.nilsosswald.aoc.Day
 
-object Day08 : Day<Int>(8, "Resonant Collinearity") {
+object Day08 : Day<Int, Int>(8, "Resonant Collinearity") {
 
   override fun partOne(input: List<String>): Int {
     return parseInput(input)

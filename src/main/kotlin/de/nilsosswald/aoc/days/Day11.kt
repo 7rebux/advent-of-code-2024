@@ -2,7 +2,7 @@ package de.nilsosswald.aoc.days
 
 import de.nilsosswald.aoc.Day
 
-object Day11 : Day<Long>(11, "Plutonian Pebbles") {
+object Day11 : Day<Long, Long>(11, "Plutonian Pebbles") {
 
   override fun partOne(input: List<String>): Long {
     return input

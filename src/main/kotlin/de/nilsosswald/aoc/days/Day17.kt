@@ -2,12 +2,12 @@ package de.nilsosswald.aoc.days
 
 import de.nilsosswald.aoc.Day
 
-object Day17 : Day<String>(17, "Chronospatial Computer") {
+object Day17 : Day<String, Long>(17, "Chronospatial Computer") {
 
   override fun partOne(input: List<String>) = parseInput(input).run()
 
   // https://www.reddit.com/r/adventofcode/comments/1hgig79/2024_day_17_part_2_i_need_the_hit_me_over_the
-  override fun partTwo(input: List<String>): String {
+  override fun partTwo(input: List<String>): Long {
     val computer = parseInput(input)
     val candidates = computer.program
       .reversed()
@@ -24,7 +24,7 @@ object Day17 : Day<String>(17, "Chronospatial Computer") {
         }
       }
 
-    return candidates.first().toString()
+    return candidates.first()
   }
 
   private fun parseInput(input: List<String>): Computer {
@@ -99,13 +99,13 @@ object Day17 : Day<String>(17, "Chronospatial Computer") {
     ) to "4,6,3,5,6,3,5,2,1,0"
   )
 
-  override val partTwoTestExamples: Map<List<String>, String> = mapOf(
+  override val partTwoTestExamples: Map<List<String>, Long> = mapOf(
     listOf(
       "Register A: 2024",
       "Register B: 0",
       "Register C: 0",
       "",
       "Program: 0,3,5,4,3,0",
-    ) to "117440"
+    ) to 117440
   )
 }

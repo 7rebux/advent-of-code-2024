@@ -2,7 +2,7 @@ package de.nilsosswald.aoc.days
 
 import de.nilsosswald.aoc.Day
 
-object Day05 : Day<Int>(5, "Print Queue") {
+object Day05 : Day<Int, Int>(5, "Print Queue") {
 
   override fun partOne(input: List<String>): Int {
     val rules = parseRuleMap(input)

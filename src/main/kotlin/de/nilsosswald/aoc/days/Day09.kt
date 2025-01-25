@@ -3,7 +3,7 @@ package de.nilsosswald.aoc.days
 import de.nilsosswald.aoc.Day
 import kotlin.text.digitToInt
 
-object Day09 : Day<Long>(9, "Disk Fragmenter") {
+object Day09 : Day<Long, Long>(9, "Disk Fragmenter") {
 
   override fun partOne(input: List<String>): Long {
     val disk = parseInput(input)

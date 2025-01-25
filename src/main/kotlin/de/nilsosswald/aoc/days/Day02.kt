@@ -7,7 +7,7 @@ import kotlin.collections.zipWithNext
 import kotlin.math.abs
 import kotlin.math.sign
 
-object Day02 : Day<Int>(2, "Red-Nosed Reports") {
+object Day02 : Day<Int, Int>(2, "Red-Nosed Reports") {
 
   override fun partOne(input: List<String>): Int {
     return input

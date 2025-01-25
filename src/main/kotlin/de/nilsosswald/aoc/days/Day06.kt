@@ -2,7 +2,7 @@ package de.nilsosswald.aoc.days
 
 import de.nilsosswald.aoc.Day
 
-object Day06 : Day<Int>(6, "Guard Gallivant") {
+object Day06 : Day<Int, Int>(6, "Guard Gallivant") {
 
   override fun partOne(input: List<String>): Int {
     return walk(input)

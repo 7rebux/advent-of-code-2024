@@ -2,7 +2,7 @@ package de.nilsosswald.aoc.days
 
 import de.nilsosswald.aoc.Day
 
-object Day21 : Day<Long>(21, "Keypad Conundrum") {
+object Day21 : Day<Long, Long>(21, "Keypad Conundrum") {
 
   override fun partOne(input: List<String>) = input.sumOf { computeComplexity(it, 2) }
 

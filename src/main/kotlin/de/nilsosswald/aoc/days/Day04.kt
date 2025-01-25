@@ -2,7 +2,7 @@ package de.nilsosswald.aoc.days
 
 import de.nilsosswald.aoc.Day
 
-object Day04 : Day<Int>(4, "Ceres Search") {
+object Day04 : Day<Int, Int>(4, "Ceres Search") {
 
   override fun partOne(input: List<String>): Int {
     return input.flatMapIndexed { y, line ->

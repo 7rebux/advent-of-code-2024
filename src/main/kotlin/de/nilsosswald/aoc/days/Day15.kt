@@ -2,7 +2,7 @@ package de.nilsosswald.aoc.days
 
 import de.nilsosswald.aoc.Day
 
-object Day15 : Day<Int>(15, "Warehouse Woes") {
+object Day15 : Day<Int, Int>(15, "Warehouse Woes") {
 
   override fun partOne(input: List<String>) = solve(input)
 

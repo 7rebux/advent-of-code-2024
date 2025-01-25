@@ -2,7 +2,7 @@ package de.nilsosswald.aoc.days
 
 import de.nilsosswald.aoc.Day
 
-object Day14 : Day<Int>(14, "Restroom Redoubt") {
+object Day14 : Day<Int, Int>(14, "Restroom Redoubt") {
 
   // For example input: Point(11, 7)
   private val area = Point(101, 103)

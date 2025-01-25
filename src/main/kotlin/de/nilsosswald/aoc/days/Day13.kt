@@ -2,7 +2,7 @@ package de.nilsosswald.aoc.days
 
 import de.nilsosswald.aoc.Day
 
-object Day13 : Day<Long>(13, "Claw Contraption") {
+object Day13 : Day<Long, Long>(13, "Claw Contraption") {
 
   override fun partOne(input: List<String>) = parseClawMachines(input).sumOf(::calculateMinimumTokens)
 

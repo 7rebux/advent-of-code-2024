@@ -2,7 +2,7 @@ package de.nilsosswald.aoc.days
 
 import de.nilsosswald.aoc.Day
 
-object Day03 : Day<Int>(3, "Mull It Over") {
+object Day03 : Day<Int, Int>(3, "Mull It Over") {
 
   private val regex = Regex("mul\\((\\d{1,3}),(\\d{1,3})\\)")
 

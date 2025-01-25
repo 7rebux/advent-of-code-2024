@@ -2,7 +2,7 @@ package de.nilsosswald.aoc.days
 
 import de.nilsosswald.aoc.Day
 
-object Day22 : Day<Long>(22, "Monkey Market") {
+object Day22 : Day<Long, Long>(22, "Monkey Market") {
 
   override fun partOne(input: List<String>): Long {
     return input
