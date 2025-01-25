@@ -1,8 +1,8 @@
 # 🎄 [Advent Of Code 2024](https://adventofcode.com/2024)
 
 ![Current day](https://img.shields.io/badge/Day-25-blue)
-![Stars obtained](https://img.shields.io/badge/Stars%20Obtained%20⭐-47-yellow)
-![Days completed](https://img.shields.io/badge/Days%20Completed-23-red)
+![Stars obtained](https://img.shields.io/badge/Stars%20Obtained%20⭐-50-yellow)
+![Days completed](https://img.shields.io/badge/Days%20Completed-25-red)
 
 ### Daily Solution Index
 
@@ -31,5 +31,5 @@
 | ✔ 21 | Keypad Conundrum       |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day21.kt) |
 | ✔ 22 | Monkey Market          |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day22.kt) |
 | ✔ 23 | LAN Party              |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day23.kt) |
-| x 24 | Crossed Wires          |   ❌    |   ❌    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day24.kt) |
-| ✔ 25 | Code Chronicle         |   ⭐    |   ❌    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day25.kt) |
+| ✔ 24 | Crossed Wires          |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day24.kt) |
+| ✔ 25 | Code Chronicle         |   ⭐    |   ⭐    | [![Code](https://img.shields.io/badge/Code-grey?style=for-the-badge&logo=Kotlin)](src/main/kotlin/de/nilsosswald/aoc/days/Day25.kt) |
